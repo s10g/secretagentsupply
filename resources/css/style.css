@@ -83,9 +83,6 @@ nav {
     padding: 0.75rem;
 }
 
-nav span {
-    display: block;
-}
 
 .nav-items-container {
     display: flex;
@@ -93,5 +90,5 @@ nav span {
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-
